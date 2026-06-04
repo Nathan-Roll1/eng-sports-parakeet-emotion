@@ -1,0 +1,381 @@
+[
+  {
+    "id": "talksport_uk",
+    "name": "TalkSPORT",
+    "country_code": "GB",
+    "homepage": "https://talksport.com/",
+    "source_page": "https://talksport.com/radioplayer/live/talksport.html",
+    "stream_url": "https://radio.talksport.com/stream",
+    "content_type": "sports radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "Public stream URL; audio rights are not granted by Radio Browser metadata. Confirm license before training, redistribution, or long-term archival use.",
+    "probe": {
+      "codec": "mp3",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bitrate_bps": 64000,
+      "format": "mp3"
+    }
+  },
+  {
+    "id": "bbc_5live_uk",
+    "name": "BBC Radio 5 Live",
+    "country_code": "GB",
+    "homepage": "https://www.bbc.co.uk/5live",
+    "source_page": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_five_live",
+    "stream_url": "http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d128000.norewind.m3u8",
+    "content_type": "news, talk, sports radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-broadcaster-rights-restricted",
+    "rights_notes": "BBC sports audio can be rights restricted by territory and event. Confirm permission before automated archival.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "bitrate_bps": null,
+      "format": "hls"
+    }
+  },
+  {
+    "id": "abc_grandstand_au",
+    "name": "ABC Grandstand",
+    "country_code": "AU",
+    "homepage": "https://radio.abc.net.au/stations/grandstand/live",
+    "source_page": "https://radio.abc.net.au/stations/grandstand/live",
+    "stream_url": "http://live-radio02.mediahubaustralia.com/GSDW/aac/;",
+    "content_type": "public radio sports",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-broadcaster-rights-restricted",
+    "rights_notes": "ABC stream is public, but program audio rights are not granted by the stream listing.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bitrate_bps": 66414,
+      "format": "aac"
+    }
+  },
+  {
+    "id": "fox_sports_radio_la_us",
+    "name": "Fox Sports Radio - LA",
+    "country_code": "US",
+    "homepage": "https://foxsportsradio.iheart.com/featured/fox-sports-radio/",
+    "source_page": "https://foxsportsradio.iheart.com/featured/fox-sports-radio/",
+    "stream_url": "http://stream.revma.ihrhls.com/zc4732",
+    "content_type": "sports radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "iHeart/Fox stream is technically reachable; confirm license before collection beyond smoke testing.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "bitrate_bps": 48950,
+      "format": "aac"
+    }
+  },
+  {
+    "id": "cbs_sports_1053_us",
+    "name": "CBS Sports Radio 105.3",
+    "country_code": "US",
+    "homepage": "https://www.cbssportsradio1053.com/",
+    "source_page": "https://www.cbssportsradio1053.com/",
+    "stream_url": "https://crystalout.surfernetwork.com:8001/KINB-FM_MP3",
+    "content_type": "sports radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "Public stream URL; station content is likely copyrighted commercial broadcast audio.",
+    "probe": {
+      "codec": "mp3",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": 192000,
+      "format": "mp3"
+    }
+  },
+  {
+    "id": "sportsnet_590_ca",
+    "name": "CJCL Sportsnet 590 The Fan",
+    "country_code": "CA",
+    "homepage": "https://www.sportsnet.ca/590/",
+    "source_page": "https://www.sportsnet.ca/590/",
+    "stream_url": "https://rogers-hls.leanstream.co/rogers/tor590.stream/playlist.m3u8",
+    "content_type": "sports talk radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "Rogers/Sportsnet stream is public but rights for archival or model training require confirmation.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": null,
+      "format": "hls"
+    }
+  },
+  {
+    "id": "talksport2_uk",
+    "name": "talkSPORT 2",
+    "country_code": "GB",
+    "homepage": "https://talksport.com/",
+    "source_page": "https://talksport.com/radioplayer/live/talksport2.html",
+    "stream_url": "http://radio.talksport.com/stream2?ref=rf",
+    "content_type": "sports radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "Public stream URL; audio rights are not granted by Radio Browser metadata.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": 127801,
+      "format": "aac"
+    }
+  },
+  {
+    "id": "kzsu_stanford_us",
+    "name": "KZSU 90.1 FM Stanford University",
+    "country_code": "US",
+    "homepage": "http://kzsu.stanford.edu/",
+    "source_page": "http://kzsu.stanford.edu/",
+    "stream_url": "http://kzsu-streams.stanford.edu/kzsu-1-256.mp3",
+    "content_type": "college radio with live sports",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=live sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-noncommercial-broadcast",
+    "rights_notes": "High-bitrate public college station stream; sports programming is schedule-dependent and collection rights still need confirmation.",
+    "probe": {
+      "codec": "mp3",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "bitrate_bps": 256000,
+      "format": "mp3"
+    }
+  },
+  {
+    "id": "wrmc_middlebury_hockey_ia",
+    "name": "WRMC Middlebury Hockey Archive",
+    "country_code": "US",
+    "homepage": "https://archive.org/details/s2_WRMC-041",
+    "source_page": "https://archive.org/metadata/s2_WRMC-041",
+    "stream_url": "https://archive.org/download/s2_WRMC-041/S2_WRMC-041_01.wav",
+    "content_type": "archived college radio sports play-by-play",
+    "language": "English",
+    "discovered_via": "Internet Archive metadata search",
+    "technical_status": "archived-file-capturable",
+    "rights_status": "unverified-college-radio-archive",
+    "rights_notes": "True 96 kHz / 24-bit WAV sports play-by-play candidate. Internet Archive item does not expose an explicit reuse license in the research pass; clear rights with WRMC/Middlebury before broad collection.",
+    "probe": {
+      "codec": "pcm_s24le",
+      "sample_rate_hz": 96000,
+      "channels": 1,
+      "bitrate_bps": 2304002,
+      "bits_per_sample": 24,
+      "format": "wav"
+    }
+  },
+  {
+    "id": "fox_sports_1260_us",
+    "name": "Fox Sports 1260",
+    "country_code": "US",
+    "homepage": "https://foxsports1260.iheart.com/",
+    "source_page": "https://foxsports1260.iheart.com/",
+    "stream_url": "https://stream.revma.ihrhls.com/zc905",
+    "content_type": "sports radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "iHeart/Fox stream is technically reachable; confirm license before collection beyond smoke testing.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "bitrate_bps": 47522,
+      "format": "aac"
+    }
+  },
+  {
+    "id": "cbs_sports_1500_hawaii_us",
+    "name": "CBS Sports Radio on AM 1500",
+    "country_code": "US",
+    "homepage": "https://nbcsportsradiohawaii.com/",
+    "source_page": "https://nbcsportsradiohawaii.com/",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHKAAMAAC.aac",
+    "content_type": "sports radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "Public station stream; automated archiving or training use still needs rights confirmation.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": 64476,
+      "format": "aac"
+    }
+  },
+  {
+    "id": "espn_1017_team_us",
+    "name": "ESPN Radio 101.7 The TEAM",
+    "country_code": "US",
+    "homepage": "https://www.1017theteam.com/",
+    "source_page": "https://www.1017theteam.com/",
+    "stream_url": "https://ice8.securenetsystems.net/KQTM",
+    "content_type": "sports radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "Public station stream; ESPN-branded and station rights should be cleared for corpus use.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": 32180,
+      "format": "aac"
+    }
+  },
+  {
+    "id": "knbr_1050_us",
+    "name": "KNBR 1050",
+    "country_code": "US",
+    "homepage": "https://www.knbr.com/",
+    "source_page": "https://www.knbr.com/",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.aac",
+    "content_type": "sports radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "Public station stream; major team/game content may carry separate rights.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": 49681,
+      "format": "aac"
+    }
+  },
+  {
+    "id": "wtka_1050_us",
+    "name": "Sports Talk 1050 WTKA",
+    "country_code": "US",
+    "homepage": "https://www.wtka.com/",
+    "source_page": "https://www.wtka.com/",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTKAAMAAC.aac",
+    "content_type": "college sports talk radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "Public station stream; college sports broadcast rights should be cleared for corpus use.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": 49681,
+      "format": "aac"
+    }
+  },
+  {
+    "id": "abc_aleague_au",
+    "name": "ABC A-League Live",
+    "country_code": "AU",
+    "homepage": "https://radio.abc.net.au/stations/itinerant_two/live",
+    "source_page": "https://radio.abc.net.au/stations/itinerant_two/live",
+    "stream_url": "http://live-radio02.mediahubaustralia.com/IT2W/mp3/;",
+    "content_type": "live sports radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=live sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-broadcaster-rights-restricted",
+    "rights_notes": "ABC itinerant sports stream is event-dependent; confirm reuse rights before broad collection.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": 193718,
+      "format": "aac"
+    }
+  },
+  {
+    "id": "tsn_1050_toronto_ca",
+    "name": "CHUM TSN 1050 Toronto",
+    "country_code": "CA",
+    "homepage": "https://www.tsn.ca/radio/toronto-1050",
+    "source_page": "https://www.tsn.ca/radio/toronto-1050/tsn-1050-live-stream-1.52945",
+    "stream_url": "http://26373.live.streamtheworld.com:3690/CHUMAMAAC_SC",
+    "content_type": "sports talk radio",
+    "language": "English",
+    "discovered_via": "Radio Browser API tag=sports language=english",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "Bell/TSN public stream; copying, caching, or corpus use needs permission.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": 41135,
+      "format": "aac"
+    }
+  },
+  {
+    "id": "sen_1116_au",
+    "name": "SEN 1116",
+    "country_code": "AU",
+    "homepage": "https://www.sen.com.au/",
+    "source_page": "https://www.sen.com.au/",
+    "stream_url": "https://d2jt3l9ulybyg4.cloudfront.net/playlist.m3u8",
+    "content_type": "sports talk radio",
+    "language": "English",
+    "discovered_via": "public broadcaster page and HLS probe",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "No clear public archival permission found; racing and live-sport rights risk.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "bitrate_bps": 65000,
+      "format": "hls"
+    }
+  },
+  {
+    "id": "sports_byline_us",
+    "name": "Sports Byline USA",
+    "country_code": "US",
+    "homepage": "https://sportsbyline.com/",
+    "source_page": "https://sportsbyline.com/sports_radio_live_stream/",
+    "stream_url": "https://peridot.streamguys1.com:5785/sportsbyline-iheart.aac",
+    "content_type": "sports talk and interviews",
+    "language": "English",
+    "discovered_via": "public broadcaster page and direct stream probe",
+    "technical_status": "capturable",
+    "rights_status": "unverified-commercial-broadcast",
+    "rights_notes": "Lower bitrate but sports-specific. LOC relationship suggests licensing may be feasible; confirm rights before corpus use.",
+    "probe": {
+      "codec": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": 32000,
+      "format": "aac"
+    }
+  }
+]

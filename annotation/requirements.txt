@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+google-genai
+httpx
+sse-starlette
+sqlalchemy
+psycopg2-binary
+pyjwt
+numpy
+feedparser
+geonamescache
+huggingface_hub
+pyarrow

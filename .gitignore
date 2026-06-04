@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+*credential*
+*secret*
+secretd.md
+
+# Local runs, datasets, logs, and model artifacts
+runs/
+data/
+artifacts/
+logs/
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.aac
+*.parquet
+*.pt
+*.safetensors
+*.ckpt
+*.sqlite
+*.db
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
