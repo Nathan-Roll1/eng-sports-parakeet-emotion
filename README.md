@@ -6,6 +6,10 @@ https://huggingface.co/NathanRoll/parakeet-tdt-0.6b-v3-eng-sports-emotion-iu-bou
 
 This repository intentionally contains code only. It does not include raw audio, parquet datasets, annotation databases, cloud credentials, Hugging Face tokens, Slurm logs, or model weights.
 
+## AI Assistance
+
+AI coding assistants were used during this project to help research data sources, draft and refactor pipeline code, debug local and Slurm runs, prepare dataset-conversion scripts, and summarize training/evaluation results. Human operators reviewed commands before running them, controlled credentials and infrastructure access, made dataset/release decisions, and verified that this public repository excludes secrets, raw data, annotation databases, logs, and model artifacts.
+
 ## Contents
 
 - `dataset_builder/`: live sports-radio source list, 24 kHz 24-bit PCM capture code, GCS upload support, Parakeet + PSST intonation-unit processing, and Hugging Face dataset packaging.
